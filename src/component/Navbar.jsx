@@ -50,7 +50,7 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className={`w-full fixed top-0 left-0 z-50 px-6 lg:px-12 py-4 flex items-center justify-between transition-all duration-300 ${isScrolled ? 'bg-white/30 shadow-md backdrop-blur-sm' : 'bg-transparent'}`}>
+        <nav className={`w-full fixed top-0 left-0 z-50 px-6 lg:px-12 py-4 flex items-center justify-between transition-all duration-300 ${isScrolled ? 'bg-white shadow-md backdrop-blur-sm' : 'bg-transparent'}`}>
 
             {/* Logo */}
             <a href="/" className="text-xl sm:text-2xl font-bold text-gray-800">
