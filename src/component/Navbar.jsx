@@ -76,12 +76,12 @@ const Navbar = () => {
             {/* Right Actions */}
             <div className="flex items-center gap-3">
                 {/* Contact Button */}
-                <a
+                <Link
                     className="hidden lg:flex items-center gap-2 px-5 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-full transition shadow"
-                    href="/contact"
+                    to="/contact"
                 >
                     Contact <img src={assets.arrow_icon} alt="arrow" className="w-3" />
-                </a>
+                </Link>
 
                 {/* Mobile Menu Toggle */}
                 <button
