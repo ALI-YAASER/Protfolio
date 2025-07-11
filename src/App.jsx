@@ -28,7 +28,7 @@ function App() {
 
   return (
       <div>
-    <div className='px-25'>
+    <div className='md:px-25'>
     <Navbar/>
     <Routes>
       <Route path="/" element={<Home />} />
