@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { assets } from '../assets/assets';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const sideMenuRef = useRef();
@@ -61,12 +62,12 @@ const Navbar = () => {
                 <ul className="flex gap-6 lg:gap-10 rounded-full px-6 py-2 bg-white/60 backdrop-blur-sm shadow-sm">
                     {navItems.map((item, index) => (
                         <li key={index}>
-                            <a
+                            <Link
                                 className="text-gray-700 hover:text-blue-500 font-medium transition-colors"
                                 href={item.href}
                             >
                                 {item.label}
-                            </a>
+                            </Link>
                         </li>
                     ))}
                 </ul>
@@ -121,13 +122,13 @@ const Navbar = () => {
                     <ul className="flex flex-col p-6 pt-20">
                         {navItems.map((item, index) => (
                             <li key={index} className="mb-4">
-                                <a
+                                <Link
                                     onClick={closeMenu}
                                     className="block py-2 text-gray-800 hover:text-blue-500 font-medium"
                                     href={item.href}
                                 >
                                     {item.label}
-                                </a>
+                                </Link>
                             </li>
                         ))}
                     </ul>
