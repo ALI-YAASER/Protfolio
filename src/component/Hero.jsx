@@ -53,7 +53,7 @@ const Hero = () => {
                         </Link>
 
                         <a
-                            href="/sample-resume.pdf"
+                            href="/Ali Yasser Amer-Resume.pdf"
                             download
                             className="border border-gray-700 px-8 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-gray-100 transition"
                         >
