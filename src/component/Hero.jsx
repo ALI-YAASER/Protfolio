@@ -52,14 +52,14 @@ const Hero = () => {
                             <img src={assets.right_arrow_white} alt="arrow" className="w-5" />
                         </Link>
 
-                        <Link
-                            to="/sample-resume.pdf"
+                        <a
+                            href="/sample-resume.pdf"
                             download
                             className="border border-gray-700 px-8 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-gray-100 transition"
                         >
                             My Resume
                             <img src={assets.download_icon} alt="download" className="w-5" />
-                        </Link>
+                        </a>
                     </div>
                 </div>
 
