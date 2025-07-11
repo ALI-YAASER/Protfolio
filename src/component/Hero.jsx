@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { assets } from '../assets/assets';
@@ -43,22 +44,22 @@ const Hero = () => {
 
                     {/* Buttons */}
                     <div className="flex flex-col sm:flex-row gap-4 mt-6" data-aos="zoom-in-up">
-                        <a
-                            href="/contact"
+                        <Link
+                            to="/contact"
                             className="bg-black text-white px-8 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-gray-900 transition"
                         >
                             Connect with me
                             <img src={assets.right_arrow_white} alt="arrow" className="w-5" />
-                        </a>
+                        </Link>
 
-                        <a
-                            href="/sample-resume.pdf"
+                        <Link
+                            to="/sample-resume.pdf"
                             download
                             className="border border-gray-700 px-8 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-gray-100 transition"
                         >
                             My Resume
                             <img src={assets.download_icon} alt="download" className="w-5" />
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
