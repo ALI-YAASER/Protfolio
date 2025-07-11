@@ -100,7 +100,7 @@ const Navbar = () => {
             {/* Mobile Menu + Overlay */}
             <div className={`fixed inset-0 z-40 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-white backdrop-blur-sm" onClick={closeMenu}></div>
+                <div className="absolute inset-0  bg-black/30 backdrop-blur-sm" onClick={closeMenu}></div>
 
                 {/* Side Menu */}
                 <div
