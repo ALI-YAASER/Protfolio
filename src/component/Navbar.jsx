@@ -64,7 +64,7 @@ const Navbar = () => {
                         <li key={index}>
                             <Link
                                 className="text-gray-700 hover:text-blue-500 font-medium transition-colors"
-                                href={item.href}
+                                to={item.href}
                             >
                                 {item.label}
                             </Link>
@@ -125,7 +125,7 @@ const Navbar = () => {
                                 <Link
                                     onClick={closeMenu}
                                     className="block py-2 text-gray-800 hover:text-blue-500 font-medium"
-                                    href={item.href}
+                                    to={item.href}
                                 >
                                     {item.label}
                                 </Link>
