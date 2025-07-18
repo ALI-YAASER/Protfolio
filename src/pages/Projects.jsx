@@ -10,7 +10,7 @@ const projects = [
         title: "Appointment Doctor App",
         description: "A full-stack medical booking system with patient/doctor portals and real-time appointments.",
         github: "https://github.com/ALI-YAASER/Appointment-doctor",
-        live: "https://appointment-doctor.vercel.app/",
+        live: "https://appointment-doctor-5be8.vercel.app/",
         skills: ["React", "Node.js", "Express", "MongoDB", "JWT", "Multer"],
         images: [
             assets.appoinment1,
