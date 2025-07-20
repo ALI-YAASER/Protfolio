@@ -23,7 +23,7 @@ const projects = [
         title: "E-Commerce Full Stack",
         description: "An online shopping platform with product listings, cart, user auth, and order management.",
         github: "https://github.com/ALI-YAASER/e-commerce-fullStack",
-        live: "https://e-commerce-fullstack-ali.vercel.app",
+        live: "https://e-commerce-frontend-gamma-eight.vercel.app",
         skills: ["React", "Redux","Tailwind CSS", "Node.js", "Express", "MongoDB", "Stripe"],
         images: [
             assets.ecommerce1,
