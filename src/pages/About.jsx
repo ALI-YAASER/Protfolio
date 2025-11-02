@@ -6,14 +6,14 @@ import cvFile from '../assets/Ali Yasser Akila.pdf';
 import {
     FaLinkedin, FaEnvelope, FaWhatsapp, FaReact, FaJs, FaHtml5, FaCss3Alt, FaBootstrap,
     FaNodeJs, FaJava, FaGitAlt, FaGithub, FaUserFriends, FaLightbulb, FaClock, FaBrain,
-    FaSyncAlt, FaSearch, FaComments, FaCertificate, FaCogs, FaDatabase, FaServer, FaTools, FaGlobe
+    FaSyncAlt, FaSearch, FaComments, FaCertificate, FaCogs, FaDatabase, FaServer, FaTools, FaGlobe, FaCode
 } from 'react-icons/fa';
 import {
     SiTailwindcss, SiExpress, SiMongodb, SiMysql, SiSpringboot, SiRedux, SiPostman, SiJquery,
-    SiNextdotjs, SiTypescript, SiDocker, SiFirebase, SiVercel, SiNetlify, SiDotnet, SiCsharp, SiRedis,
+    SiNextdotjs, SiTypescript, SiDocker, SiFirebase, SiVercel, SiNetlify, SiDotnet, SiRedis,
     SiJest, SiMocha
 } from 'react-icons/si';
-import {assets} from "../assets/assets.js";
+import { assets } from "../assets/assets.js";
 
 const frontendSkills = [
     { name: 'React.js', icon: <FaReact /> },
@@ -34,7 +34,7 @@ const backendSkills = [
     { name: 'Java', icon: <FaJava /> },
     { name: 'Spring Boot', icon: <SiSpringboot /> },
     { name: 'ASP.NET Core', icon: <SiDotnet /> },
-    { name: 'C#', icon: <SiCsharp /> },
+    { name: 'C#', icon: <FaCode /> },
     { name: 'Entity Framework', icon: <FaServer /> },
 ];
 
