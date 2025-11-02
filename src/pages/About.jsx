@@ -170,19 +170,6 @@ const About = () => {
                     </div>
                 ))}
 
-                {/* Certificates */}
-                <div data-aos="fade-up">
-                    <h3 className="text-2xl font-bold text-gray-800 mb-4">🎓 Certificates</h3>
-                    <ul className="space-y-3 pl-4 border-l-4 border-blue-200">
-                        {certificates.map((cert, index) => (
-                            <li key={index} className="flex items-center gap-3 text-gray-700">
-                                <FaCertificate className="text-blue-500" />
-                                <span>{cert}</span>
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-
                 {/* Education */}
                 <div data-aos="fade-up">
                     <h3 className="text-2xl font-bold text-gray-800 mb-4">🎓 Education</h3>
@@ -195,6 +182,19 @@ const About = () => {
                             <strong>Information Technology Institute (ITI)</strong> — Full-Stack Web Development (.NET Track) (Aug–Sep 2025) <br />
                             <span className="text-gray-500">Modules: MySQL, C#, ASP.NET, Entity Framework (120 Hours)</span>
                         </li>
+                    </ul>
+                </div>
+
+                   {/* Certificates */}
+                <div data-aos="fade-up">
+                    <h3 className="text-2xl font-bold text-gray-800 mb-4">🎓 Certificates</h3>
+                    <ul className="space-y-3 pl-4 border-l-4 border-blue-200">
+                        {certificates.map((cert, index) => (
+                            <li key={index} className="flex items-center gap-3 text-gray-700">
+                                <FaCertificate className="text-blue-500" />
+                                <span>{cert}</span>
+                            </li>
+                        ))}
                     </ul>
                 </div>
 
