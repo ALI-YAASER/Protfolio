@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import profileImg from '../assets/Ali.jpg';
-import cvFile from '../assets/Ali Yasser Amer-Resume.pdf';
+import cvFile from '../assets/Ali Yasser Akila.pdf';
 import {
     FaLinkedin, FaEnvelope, FaWhatsapp, FaReact, FaJs, FaHtml5, FaCss3Alt, FaBootstrap,
     FaNodeJs, FaJava, FaGitAlt, FaGithub, FaUserFriends, FaLightbulb, FaClock, FaBrain,
