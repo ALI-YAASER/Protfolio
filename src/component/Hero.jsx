@@ -16,11 +16,11 @@ const Hero = () => {
     }, []);
 
     return (
-        <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-gray-50 px-6 py-12">
-            <div className="grid grid-cols-1 md:grid-cols-2 items-center max-w-6xl w-full gap-10">
+        <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-gray-50 px-6 py-16 md:py-24">
+            <div className="grid grid-cols-1 md:grid-cols-2 items-center max-w-7xl mx-auto w-full gap-16">
 
                 {/* Left Side: Text */}
-                <div className="space-y-6">
+                <div className="space-y-6 text-center md:text-left">
                     <h1
                         className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight"
                         data-aos="fade-up"
@@ -30,20 +30,25 @@ const Hero = () => {
                         where I build the future.
                     </h1>
 
-                    <p className="text-gray-700 text-base sm:text-lg leading-relaxed" data-aos="fade-up">
+                    <p
+                        className="text-gray-700 text-base sm:text-lg leading-relaxed max-w-xl mx-auto md:mx-0"
+                        data-aos="fade-up"
+                    >
                         I'm a full-stack developer who crafts modern, responsive front-end experiences using
-                        <span className="text-blue-500 font-medium"> React.js</span> and <span className="text-blue-500 font-medium">Tailwind CSS</span>,
-                        and builds strong backends with
-                        <span className="text-pink-500 font-medium"> Node.js</span> and <span className="text-pink-500 font-medium">Spring Boot</span>.
+                        <span className="text-blue-500 font-medium"> React.js</span> and <span className="text-blue-500 font-medium"> Tailwind CSS</span>,
+                        and builds robust backends with
+                        <span className="text-pink-500 font-medium"> Node.js</span> and <span className="text-pink-500 font-medium"> Spring Boot</span>.
                     </p>
 
-                    <p className="text-gray-600" data-aos="fade-up">
-                        Currently pursuing a degree in Information Technology at <strong>EELU</strong> with a GPA of <strong>3.3</strong>,
-                        I combine academic knowledge with practical projects to deliver clean, scalable, and high-performing applications.
+                    <p
+                        className="text-gray-600 max-w-xl mx-auto md:mx-0"
+                        data-aos="fade-up"
+                    >
+                        Currently pursuing a degree in Information Technology at <strong>EELU</strong> with a GPA of <strong>3.3</strong>, combining academic knowledge with real-world projects to deliver clean, scalable, and high-performing applications.
                     </p>
 
                     {/* Buttons */}
-                    <div className="flex flex-col sm:flex-row gap-4 mt-6" data-aos="zoom-in-up">
+                    <div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center md:justify-start" data-aos="zoom-in-up">
                         <Link
                             to="/contact"
                             className="bg-black text-white px-8 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-gray-900 transition"
@@ -63,16 +68,17 @@ const Hero = () => {
                     </div>
                 </div>
 
-                {/* Right Side: Image and Icons */}
-                <div className="flex flex-col items-center gap-4" data-aos="fade-left">
+                {/* Right Side */}
+                <div className="flex flex-col items-center gap-6" data-aos="fade-left">
+
                     <img
                         src={assets.ali}
                         alt="Ali Yasser"
-                        className="w-64 sm:w-80 rounded-xl transform rotate-2 shadow-2xl border-4 border-gray-300"
+                        className="w-48 sm:w-64 md:w-72 lg:w-80 rounded-xl transform rotate-2 shadow-2xl border-4 border-gray-300"
                     />
 
-                    {/* Social Media Icons */}
-                    <div className="flex flex-col sm:flex-row gap-6 items-start text-2xl py-6 mt-2">
+                    {/* Social Icons */}
+                    <div className="flex flex-wrap justify-center gap-6 text-xl pt-4">
                         <a
                             href="https://github.com/ALI-YAASER"
                             target="_blank"
@@ -80,7 +86,7 @@ const Hero = () => {
                             className="flex items-center gap-2 text-gray-700 hover:text-black transition"
                         >
                             <FaGithub />
-                            <span className="text-base">GitHub</span>
+                            <span className="text-sm sm:text-base">GitHub</span>
                         </a>
 
                         <a
@@ -90,7 +96,7 @@ const Hero = () => {
                             className="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition"
                         >
                             <FaLinkedin />
-                            <span className="text-base">LinkedIn</span>
+                            <span className="text-sm sm:text-base">LinkedIn</span>
                         </a>
 
                         <a
@@ -100,7 +106,7 @@ const Hero = () => {
                             className="flex items-center gap-2 text-pink-500 hover:text-pink-600 transition"
                         >
                             <FaInstagram />
-                            <span className="text-base">Instagram</span>
+                            <span className="text-sm sm:text-base">Instagram</span>
                         </a>
 
                         <a
@@ -110,10 +116,9 @@ const Hero = () => {
                             className="flex items-center gap-2 text-gray-700 hover:text-black transition"
                         >
                             <FaFacebook />
-                            <span className="text-base">Facebook</span>
+                            <span className="text-sm sm:text-base">Facebook</span>
                         </a>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -121,4 +126,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
