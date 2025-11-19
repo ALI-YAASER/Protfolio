@@ -107,7 +107,7 @@ const About = () => {
                     />
                 </div>
 
-                <div className="flex-1 text-center lg:text-left" data-aos="fade-up">
+                <div className="flex-1 text-start lg:text-left" data-aos="fade-up">
                     <h2 className="text-4xl font-extrabold text-gray-800 mb-4">🧑‍💻 About Me</h2>
                     <p className="text-gray-700 text-lg leading-relaxed mb-4">
                         I'm <span className="text-blue-500 font-semibold">Ali Yasser Amer</span>, a passionate Full-Stack Developer from Egypt with 3+ years of experience in building, optimizing, and deploying web applications.
