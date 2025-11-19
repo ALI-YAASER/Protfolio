@@ -16,7 +16,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-gray-50 px-6 py-16 md:py-24">
+        <section className="min-h-screen overflow-x-hidden  flex items-center justify-center bg-gradient-to-b from-white to-gray-50 px-6 py-16 md:py-24">
             <div className="grid grid-cols-1 md:grid-cols-2 items-center max-w-7xl mx-auto w-full gap-16">
 
                 {/* Left Side: Text */}
