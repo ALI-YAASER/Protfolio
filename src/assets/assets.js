@@ -44,6 +44,7 @@ import  idea from './lightbulb.png';
 import support from './online-chat.png';
 import retouch from './retouch.png' ;
 import ali from './Ali.jpg'
+import Ali_Yasser from './Ali Yasser.jpg' 
 import appoinment1 from './appoinment-1.png';
 import appoinment2 from './appoinment-2.png';
 import appoinment3 from './appoinment-3.png';
@@ -127,7 +128,8 @@ export const assets = {
     backend,
     api,
     soter1,
-    soter2
+    soter2,
+    Ali_Yasser
     
 };
 
