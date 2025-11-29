@@ -101,7 +101,7 @@ const About = () => {
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-start gap-12">
                 <div className="flex-shrink-0 mx-auto lg:mx-0" data-aos="fade-right">
                     <img
-                        src={profileImg}
+                        src={assets.Ali_Yasser}
                         alt="Ali Yasser"
                         className="w-72 h-72 object-cover rounded-3xl shadow-lg border-4 border-gray-300"
                     />
