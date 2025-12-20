@@ -7,6 +7,24 @@ import "aos/dist/aos.css";
 
 const projects = [
     {
+        title: "Alsultan Center Management System",
+        description: "A full-stack Website Management system with patient/doctor/pharmacy portals and real-time appointments.",
+        github: "https://github.com/ALI-YAASER/",
+        live: "https://center-alsultan.vercel.app/",
+        skills: ["React", "Next.js",  "Tailwind CSS", "Redux", "Node.js", "Express", "MongoDB", "JWT", "Multer"],
+        images: [
+            assets.Alsultan_hero,
+            assets.Alsultan_product,
+            assets.Alsultan_service,
+            assets.Alsultan_pharmacy,
+            assets.Alsultan_pharmacymang,
+            assets.Alsultan_doctor,
+            assets.Alsultan_doctormang,
+            assets.Alsultan_roshate,
+            assets.Alsultan_roshatemange
+        ],  
+    },
+    {
         title: "Appointment Doctor App",
         description: "A full-stack medical booking system with patient/doctor portals and real-time appointments.",
         github: "https://github.com/ALI-YAASER/Appointment-doctor",
