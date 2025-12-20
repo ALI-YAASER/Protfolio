@@ -97,7 +97,7 @@ const Projects = () => {
     }, []);
 
     return (
-        <section id="projects" className="py-20 px-6 md:px-12 bg-gradient-to-b from-gray-50 to-white">
+        <section id="projects" className="py-20 px-2 md:px-10 bg-gradient-to-b from-gray-50 to-white">
             <div className="text-center mb-12">
                 <h2 className="text-4xl sm:text-5xl font-bold inline-flex text-gray-800"><img src={assets.web_icon} alt='..' className='w-8 h-8 md:w-10 md:h-10 mx-3 my-3'/> My Projects</h2>
                 <p className="text-gray-600 mt-3">Some of the best work I've built across full stack, UI, and backend.</p>
