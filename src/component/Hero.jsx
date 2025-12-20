@@ -37,7 +37,7 @@ const Hero = () => {
                         I'm a full-stack developer who crafts modern, responsive front-end experiences using
                         <span className="text-blue-500 font-medium"> React.js</span> and <span className="text-blue-500 font-medium"> Tailwind CSS</span>,
                         and builds robust backends with
-                        <span className="text-pink-500 font-medium"> Node.js</span> and <span className="text-pink-500 font-medium"> Spring Boot</span>.
+                        <span className="text-pink-500 font-medium"> Node.js</span> and <span className="text-pink-500 font-medium"> .Net</span>.
                     </p>
 
                     <p
