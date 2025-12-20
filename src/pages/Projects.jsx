@@ -39,6 +39,23 @@ const projects = [
         ],
     },
     {
+        title: "Loliat E-Commerce Website",
+        description: "An online shopping platform with product listings, cart, user auth, and order management.",
+        github: "https://github.com/ALI-YAASER/",
+        live: "https://lolita-store.vercel.app/",
+        skills: ["React", "Next.js",  "Tailwind CSS", "Redux", "Node.js", "Express", "MongoDB", "JWT", "Multer"],
+        images: [
+            assets.Loliat_home,
+            assets.Loliat_about,
+            assets.Loliat_login,    
+            assets.Loliat_card,
+            assets.Loliat_check,
+            assets.Loliat_list,
+            assets.Loliat_product,
+            assets.Loliat_order,
+        ],  
+    },
+    {
         title: "E-Commerce Full Stack",
         description: "An online shopping platform with product listings, cart, user auth, and order management.",
         github: "https://github.com/ALI-YAASER/e-commerce-fullStack",
@@ -173,6 +190,7 @@ const Projects = () => {
 };
 
 export default Projects;
+
 =======
 
 
