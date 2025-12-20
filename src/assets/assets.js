@@ -71,6 +71,15 @@ import Alsultan_doctor from './doctors.png'
 import Alsultan_doctormang from './doctormengment.png'
 import Alsultan_roshate from './createRoshate.png'
 import Alsultan_roshatemange from './manage Roshate.png'
+import Loliat_home from './home.png'
+import Loliat_about from './about.png'
+import Loliat_login from './login.png'
+import Loliat_card from './card.png'     
+import Loliat_check from './chekout.png'
+import Loliat_list from './list.png'
+import Loliat_product from './shipping.png'
+import Loliat_order from './orders.png'
+
 
 
 export const assets = {
@@ -147,7 +156,16 @@ export const assets = {
     Alsultan_doctor,
     Alsultan_doctormang,
     Alsultan_roshate,
-    Alsultan_roshatemange
+    Alsultan_roshatemange,
+     Loliat_home,
+    Loliat_about,
+    Loliat_login,
+    Loliat_card,
+    Loliat_check,
+    Loliat_list,
+    Loliat_product,
+    Loliat_order,
+    
     
 };
 
