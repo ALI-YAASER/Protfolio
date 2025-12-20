@@ -62,6 +62,15 @@ import api from './icons8-api-64.png';
 import admin from './icons8-administrator-58.png';
 import soter1 from './simple-store (1).png'
 import soter2 from './simple-store (2).png'
+import Alsultan_hero from './hero.png'
+import Alsultan_product from './product.png'
+import Alsultan_service from './servers.png'
+import Alsultan_pharmacy from './pharmacy.png'
+import Alsultan_pharmacymang from './parmacymengment.png'
+import Alsultan_doctor from './doctors.png'
+import Alsultan_doctormang from './doctormengment.png'
+import Alsultan_roshate from './createRoshate.png'
+import Alsultan_roshatemange from './manage Roshate.png'
 
 
 export const assets = {
@@ -129,7 +138,16 @@ export const assets = {
     api,
     soter1,
     soter2,
-    Ali_Yasser
+    Ali_Yasser,
+    Alsultan_hero,
+    Alsultan_product,
+    Alsultan_service,
+    Alsultan_pharmacy,
+    Alsultan_pharmacymang,
+    Alsultan_doctor,
+    Alsultan_doctormang,
+    Alsultan_roshate,
+    Alsultan_roshatemange
     
 };
 
