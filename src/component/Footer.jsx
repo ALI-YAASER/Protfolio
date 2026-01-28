@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
+import { FaGithub, FaLinkedin,FaWhatsapp , FaFacebook } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -42,7 +42,7 @@ const Footer = () => {
         className="fixed bottom-6 left-6 bg-green-500 text-white w-14 h-14 flex items-center justify-center rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 z-50"
         aria-label="تواصل معنا عبر واتساب"
       >
-        <i className="fa-brands fa-whatsapp text-2xl"></i>
+       <FaWhatsapp />
       </a>
         </footer>
     );
