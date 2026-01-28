@@ -96,13 +96,7 @@ const Navbar = () => {
                     isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
                 }`}
             >
-                <Link
-    className="flex items-center gap-2 px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-full transition text-sm shadow"
-    to="/contact"
-  >
-    Contact Me
-    <img src={assets.arrow_icon} alt="arrow" className="w-3" />
-  </Link>  
+                
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black/30 backdrop-blur-sm" onClick={closeMenu}></div>
 
@@ -149,7 +143,13 @@ const Navbar = () => {
                     </Link>
                 </div>
             </div>    
-              
+              <Link
+    className="flex items-center gap-2 px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-full transition text-sm shadow"
+    to="/contact"
+  >
+    Contact Me
+    <img src={assets.arrow_icon} alt="arrow" className="w-3" />
+  </Link>  
         </nav>
     );
 };
