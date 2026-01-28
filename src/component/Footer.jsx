@@ -39,7 +39,7 @@ const Footer = () => {
         href="https://wa.me/201123434175"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 left-6 bg-green-500 text-white w-14 h-14 flex items-center justify-center rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 z-50"
+        className="fixed bottom-6 left-6 text-2xl bg-green-500 text-white w-14 h-14 flex items-center justify-center rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 z-50"
         aria-label="تواصل معنا عبر واتساب"
       >
        <FaWhatsapp />
