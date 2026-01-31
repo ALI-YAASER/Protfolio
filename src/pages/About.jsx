@@ -121,7 +121,7 @@ const About = () => {
                         Always eager to learn and explore new technologies to deliver the best user experience.
                     </p>
 
-                    <p><strong className="text-blue-500 font-semibold">Age:</strong>  20 years old</p>
+                    <p><strong className="text-blue-500 font-semibold">Age:</strong>  21 years old</p>
                     <p><strong className="text-blue-500 font-semibold">Phone:</strong>  +20 1123434175</p>
                     <p className="mb-4"><strong className="text-blue-500 font-semibold">Email:</strong>  yly741689@gmail.com</p>
 
