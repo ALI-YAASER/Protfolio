@@ -68,7 +68,7 @@ const projects = [
     {
         title: "Landing Page  Cool Star Smart Water Dispenser",
         description: "A single-product landing page showcasing the Cool Star Smart Water Dispenser, highlighting its design, discounted pricing, customer reviews, and an easy “Order Now” option to drive quick purchasing decisions.",
-        github: "https://github.com/ALI-YAASER/cool start",
+        github: "https://github.com/ALI-YAASER/cool-star",
         live: "https://cool-star.vercel.app/",
         skills: ["HTML", "CSS", "JavaScript"],
         images: [
@@ -198,5 +198,6 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
 
