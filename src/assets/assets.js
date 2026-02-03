@@ -79,6 +79,8 @@ import Loliat_check from './chekout.png'
 import Loliat_list from './list.png'
 import Loliat_product from './shipping.png'
 import Loliat_order from './orders.png'
+import cool_start from './cool start1.png'
+
 
 
 
@@ -165,6 +167,7 @@ export const assets = {
     Loliat_list,
     Loliat_product,
     Loliat_order,
+    cool_start
     
     
 };
