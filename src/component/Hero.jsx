@@ -26,7 +26,7 @@ const Hero = () => {
                         data-aos="fade-up"
                     >
                         I’m Ali Yasser.<br />
-                        I live in Fayoum, Egypt,<br />
+                        I live in Egypt,<br />
                         where I build the future.
                     </h1>
 
