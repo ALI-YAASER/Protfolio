@@ -72,7 +72,7 @@ const Hero = () => {
                 <div className="flex flex-col items-center gap-6" data-aos="fade-left">
 
                     <img
-                        src={assets.ali}
+                        src={assets.Ali_Yasser}
                         alt="Ali Yasser"
                         className="w-48 sm:w-64 md:w-72 lg:w-80 rounded-xl transform rotate-2 shadow-2xl border-4 border-gray-300"
                     />
