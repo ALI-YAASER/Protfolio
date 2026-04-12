@@ -80,6 +80,10 @@ import Loliat_list from './list.png'
 import Loliat_product from './shipping.png'
 import Loliat_order from './orders.png'
 import cool_start from './cool start1.png'
+import eco1 from './eco1.png'
+import eco2 from './eco2.png'
+import eco3 from './eco3.png'
+import eco4 from './eco4.png'
 
 
 
@@ -167,7 +171,11 @@ export const assets = {
     Loliat_list,
     Loliat_product,
     Loliat_order,
-    cool_start
+    cool_start,
+    eco1,
+    eco2,
+    eco3,
+    eco4
     
     
 };
