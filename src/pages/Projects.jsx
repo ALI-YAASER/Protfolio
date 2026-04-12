@@ -60,8 +60,13 @@ const projects = [
         skills: ["React", "Redux","Tailwind CSS", "Node.js", "Express", "MongoDB", "Stripe"],
         images: [
             assets.ecommerce1,
+            assets.eco4,
+            assets.eco2,
             assets.ecommerce2,
+            assets.eco3,
             assets.ecommerce3,
+            assets.eco1,
+            
         ],
     },
     
