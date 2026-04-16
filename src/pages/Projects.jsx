@@ -78,6 +78,9 @@ const projects = [
         skills: ["HTML", "CSS", "JavaScript"],
         images: [
             assets.cool_start,
+            assets.landing,
+            assets.landing1
+            
         ],
     },
 
