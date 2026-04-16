@@ -84,6 +84,8 @@ import eco1 from './eco1.png'
 import eco2 from './eco2.png'
 import eco3 from './eco3.png'
 import eco4 from './eco4.png'
+import landing from './landing.png'
+import landing1 from './landing1.png'
 
 
 
@@ -175,7 +177,9 @@ export const assets = {
     eco1,
     eco2,
     eco3,
-    eco4
+    eco4,
+    landing,
+    landing1
     
     
 };
