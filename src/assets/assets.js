@@ -87,6 +87,18 @@ import eco4 from './eco4.png'
 import landing from './landing.png'
 import landing1 from './landing1.png'
 
+import home1 from './home1.png'
+import home2 from './home2.png'
+import home3 from './home3.png'
+import product from './product11.png'
+import about from './about1.png'
+import cart from './cart.png'
+import placeorder from './placeorder.png'
+import orders from './orders1.png'
+import list from './list1.png'
+import add from './add.png'
+import chargering from './chargering.png'
+
 
 
 
@@ -179,7 +191,18 @@ export const assets = {
     eco3,
     eco4,
     landing,
-    landing1
+    landing1,
+    home1,
+    home2,
+    home3,
+    product,
+    about,
+    cart,
+    placeorder,
+    orders,
+    list,
+    add,
+    chargering
     
     
 };
