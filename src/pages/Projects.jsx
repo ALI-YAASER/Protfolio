@@ -52,6 +52,35 @@ const projects = [
             assets.Loliat_order,
         ],  
     },
+     {
+    title: "E-Commerce Full Stack",
+    description:
+        "A modern full-stack e-commerce platform featuring secure authentication, product management, shopping cart, online payments, order tracking, and a responsive user-friendly interface.",
+    github: "https://github.com/ALI-YAASER/Almadina.git",
+    live: "https://almadinahalmunawarah1.vercel.app",
+    skills: [
+        "React",
+        "Redux",
+        "Tailwind CSS",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Stripe"
+    ],
+    images: [
+        assets.home1,
+        assets.home2,
+        assets.placeorder,
+        assets.home3,
+        assets.product,
+        assets.about,
+        assets.cart,
+        assets.list,
+        assets.add,
+        assets.orders,
+        assets.chargering
+    ],
+},
     {
         title: "E-Commerce Full Stack",
         description: "An online shopping platform with product listings, cart, user auth, and order management.",
@@ -70,35 +99,7 @@ const projects = [
         ],
     },
 
-  {
-    title: "E-Commerce Full Stack",
-    description:
-        "A modern full-stack e-commerce platform featuring secure authentication, product management, shopping cart, online payments, order tracking, and a responsive user-friendly interface.",
-    github: "https://github.com/ALI-YAASER/Almadina.git",
-    live: "https://almadinahalmunawarah1.vercel.app",
-    skills: [
-        "React",
-        "Redux",
-        "Tailwind CSS",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Stripe"
-    ],
-    images: [
-        assets.home1,
-        assets.home2,
-        assets.orders,
-        assets.placeorder,
-        assets.home3,
-        assets.product,
-        assets.about,
-        assets.cart,
-        assets.list,
-        assets.add,
-        assets.chargering
-    ],
-},
+ 
     
     {
         title: "Landing Page  Cool Star Smart Water Dispenser",
